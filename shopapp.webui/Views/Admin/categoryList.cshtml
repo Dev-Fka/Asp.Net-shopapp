@@ -1,0 +1,32 @@
+@model CategoryListViewModel
+
+<h4>
+    KATEGORİ LİSTESİ
+</h4>
+<hr>
+
+<a class="btn btn-primary" asp-controller="admin" asp-action="createCategory">ADD CATEGORY</a>
+
+<div class="row mt-3">
+    @foreach (var item in Model.categories)
+    {
+        <div class="col-md-4 mt-3">
+            <div class="card">
+                <div class="card-header text-center ">
+                    <p class="fw-bold fs-5">@item.CategoryId</p>
+                </div>
+                <div class="card-body">
+                    <p class="d-inline border border-5 p-2 border-white shadow-lg">@item.Name</p>
+                    <div class="d-inline">
+                        <a href="/admin/categories/@item.CategoryId" class="btn ms-2 btn-danger float-end">EDİT</a>
+                        <form method="post" class="d-inline float-end" asp-action="deleteCategory" asp-controller="admin">
+                            <input type="hidden" name="CategoryId" value="@item.CategoryId">
+                            <button type="submit" class="btn btn-primary">DELETE</button>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    }
+</div>

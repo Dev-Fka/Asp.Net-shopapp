@@ -1,0 +1,12 @@
+C:\Users\byart\Work\.NetProjects\shopapp\shopapp.entity\bin\Debug\net6.0\shopapp.entity.deps.json
+C:\Users\byart\Work\.NetProjects\shopapp\shopapp.entity\bin\Debug\net6.0\shopapp.entity.dll
+C:\Users\byart\Work\.NetProjects\shopapp\shopapp.entity\bin\Debug\net6.0\ref\shopapp.entity.dll
+C:\Users\byart\Work\.NetProjects\shopapp\shopapp.entity\bin\Debug\net6.0\shopapp.entity.pdb
+C:\Users\byart\Work\.NetProjects\shopapp\shopapp.entity\obj\Debug\net6.0\shopapp.entity.csproj.AssemblyReference.cache
+C:\Users\byart\Work\.NetProjects\shopapp\shopapp.entity\obj\Debug\net6.0\shopapp.entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\byart\Work\.NetProjects\shopapp\shopapp.entity\obj\Debug\net6.0\shopapp.entity.AssemblyInfoInputs.cache
+C:\Users\byart\Work\.NetProjects\shopapp\shopapp.entity\obj\Debug\net6.0\shopapp.entity.AssemblyInfo.cs
+C:\Users\byart\Work\.NetProjects\shopapp\shopapp.entity\obj\Debug\net6.0\shopapp.entity.csproj.CoreCompileInputs.cache
+C:\Users\byart\Work\.NetProjects\shopapp\shopapp.entity\obj\Debug\net6.0\shopapp.entity.dll
+C:\Users\byart\Work\.NetProjects\shopapp\shopapp.entity\obj\Debug\net6.0\ref\shopapp.entity.dll
+C:\Users\byart\Work\.NetProjects\shopapp\shopapp.entity\obj\Debug\net6.0\shopapp.entity.pdb

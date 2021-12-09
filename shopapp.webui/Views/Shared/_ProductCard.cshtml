@@ -1,0 +1,15 @@
+@model Product
+<div class="card ms-2">
+    <img class="car-img-top img-thumbnail" src="~/img/@Model.ImageUrl" alt="resim">
+    <div class="card-body">
+        <h5 class="card-title">@Model.Name</h5>
+        <small>
+            <i class="fab fa-affiliatetheme"></i>@Model.Price TL
+        </small>
+    </div>
+    <div class="card-footer text-center">
+        <a asp-controller="shop" asp-action="details" asp-route-Url="@Model.Url" class="btn btn-primary">Details</a>
+        <a asp-controller="Product" asp-action="addtocart" asp-route-id="@Model.ProductId"
+            class="btn btn-info">addtoCart</a>
+    </div>
+</div>

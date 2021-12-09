@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "Hash": "DOmJhovhCbGgojhGXtQrR+o3a6Gjn/GoC4ByrNo7C0A=",
+  "Source": "shopapp.webui",
+  "BasePath": "_content/shopapp.webui",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "shopapp.webui\\wwwroot",
+      "Source": "shopapp.webui",
+      "ContentRoot": "C:\\Users\\byart\\Work\\.NetProjects\\shopapp\\shopapp.webui\\wwwroot\\",
+      "BasePath": "_content/shopapp.webui",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\byart\\Work\\.NetProjects\\shopapp\\shopapp.webui\\wwwroot\\css\\style.css",
+      "SourceId": "shopapp.webui",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\byart\\Work\\.NetProjects\\shopapp\\shopapp.webui\\wwwroot\\",
+      "BasePath": "_content/shopapp.webui",
+      "RelativePath": "css/style.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\style.css"
+    },
+    {
+      "Identity": "C:\\Users\\byart\\Work\\.NetProjects\\shopapp\\shopapp.webui\\wwwroot\\img\\asus-laptop.jpg",
+      "SourceId": "shopapp.webui",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\byart\\Work\\.NetProjects\\shopapp\\shopapp.webui\\wwwroot\\",
+      "BasePath": "_content/shopapp.webui",
+      "RelativePath": "img/asus-laptop.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\asus-laptop.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\byart\\Work\\.NetProjects\\shopapp\\shopapp.webui\\wwwroot\\img\\iphone.jpg",
+      "SourceId": "shopapp.webui",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\byart\\Work\\.NetProjects\\shopapp\\shopapp.webui\\wwwroot\\",
+      "BasePath": "_content/shopapp.webui",
+      "RelativePath": "img/iphone.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\iphone.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\byart\\Work\\.NetProjects\\shopapp\\shopapp.webui\\wwwroot\\img\\mac-tablet.jpg",
+      "SourceId": "shopapp.webui",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\byart\\Work\\.NetProjects\\shopapp\\shopapp.webui\\wwwroot\\",
+      "BasePath": "_content/shopapp.webui",
+      "RelativePath": "img/mac-tablet.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\mac-tablet.jpg"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\shopapp.dataAccess\shopapp.dataAccess.csproj"></ProjectReference>
+  </ItemGroup>
+
+ <ItemGroup>
+    <ProjectReference Include="..\shopapp.entity\shopapp.entity.csproj"></ProjectReference>
+  </ItemGroup>
+
+</Project>

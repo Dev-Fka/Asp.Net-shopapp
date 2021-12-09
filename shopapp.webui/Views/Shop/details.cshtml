@@ -1,0 +1,32 @@
+@model ProductDetailModel
+
+
+@section Categories{
+@await Component.InvokeAsync("Categories")
+}
+
+<p>DETAİLS</p>
+
+
+
+<div class="row bg-success">
+    <div class="col-md-3">
+        <img src="~/img/@Model.Product.ImageUrl" alt="resim" class="img-fluid">
+    </div>
+    <div class="col-md-9">
+        <div class="">
+            <h4 class="">@Model.Product.Name</h4>
+            <hr>
+            <i class="fab fa-affiliatetheme"></i>@Model.Product.Price TL
+            <button type="submit" class="btn btn-primary">ADD TO CART</button>
+            <p class="p-3">@Model.Product.Description</p>
+            @foreach (var item in Model.Categories)
+            {
+                <a asp-controller="shop" asp-action="details" asp-route-category="@item.Name"
+                class="btn btn-danger">@item.Name</a>
+            }
+
+
+        </div>
+    </div>
+</div>

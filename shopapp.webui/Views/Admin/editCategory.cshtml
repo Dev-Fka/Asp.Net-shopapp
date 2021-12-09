@@ -1,0 +1,89 @@
+@model CategoryModel
+
+<h1 class="h3">EDİT CATEGORY</h1>
+<hr>
+<div class="row">
+    <div class="col-md-8">
+        <form asp-controller="admin" asp-action="editCategory" method="post">
+            <div class="form-group row">
+                <input type="hidden" name="CategoryId" value="@Model.CategoryId">
+                <label for="col-sm-2 col-form-label" asp-for="Name"></label>
+                <div class="col-sm-10">
+                    <input class="form-control" asp-for="Name">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="col-sm-2 col-form-label" asp-for="Url"></label>
+                <div class="col-sm-10">
+                    <input asp-for="Url" class="form-control">
+                </div>
+            </div>
+            <div class="form-group row mt-3 ">
+                <div class="col-sm-10">
+                    <div class="d-grid gap-2">
+                        <button type="submit" class="btn btn-danger btn-lg" value="Save Category">ADD</button>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+    <div class="col-md-4">
+        <div class="row">
+            <div class="col-md-12">
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <td class="text-center bg-danger">ID</td>
+                            <td class="bg-info text-center">Name</td>
+                            <td class="bg-info text-center">Description</td>
+                            <td class="bg-info text-center">İmage</td>
+                            <td class="bg-info text-center">Price</td>
+                            <td class="bg-info text-center">ANASAYFA</td>
+                            <td class="bg-danger text-white text-center">DÜZENLE</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @if (Model.products.Count > 0)
+                        {
+                            @foreach (var item in Model.products)
+                            {
+                                <tr>
+                                    <td class="text-center">@item.ProductId</td>
+                                    <td class=" text-center">@item.Name</td>
+                                    <td class=" text-center">@item.Description</td>
+                                    <td><img src="~/img/@item.ImageUrl" alt="pic" width="80"></td>
+                                    <td class=" text-center">@item.Price TL</td>
+                                    <td class="text-center">
+                                        @if (item.ısHome)
+                                        {
+                                            <i class="fas fa-check"></i>
+                                        }
+                                        else
+                                        {
+                                            <i class="fas fa-times-circle"></i>
+                                        }
+                                    </td>
+                                    <td class="text-center">
+                                        <a href="/admin/products/@item.ProductId" class="btn btn-primary">Edit</a>
+                                        <form asp-controller="admin" asp-action="deleteFromCategories" method="post"
+                                    style="display: inline;">
+                                            <input type="hidden" name="productId" value="@item.ProductId">
+                                            <input type="hidden" name="categoryId" value="@Model.CategoryId">
+                                            <button type="submit" class="btn btn-danger">Delete</button>
+                                        </form>
+                                    </td>
+                                </tr>
+                            }
+                        }
+                        else
+                        {
+                            <div class="alert alert-warning">
+                                <h3>NO PRODUCTS</h3>
+                            </div>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

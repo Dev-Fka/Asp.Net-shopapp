@@ -1,0 +1,22 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <ul class="navbar-nav">
+            <a href="/" class="navbar-brand">ShopAPP</a>
+            <li class="nav-item">
+                <a asp-controller="shop" asp-action="list" class="nav-link">Products</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link">Cart</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link">Order</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" asp-controller="admin" asp-action="productList">ADMİN PRODUCTS</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" asp-controller="admin" asp-action="categoryList">ADMİN CATEGORY</a>
+            </li>
+        </ul>
+    </div>
+</nav>

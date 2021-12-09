@@ -1,0 +1,17 @@
+C:\Users\byart\Work\.NetProjects\shopapp\shopapp.dataAccess\bin\Debug\net6.0\shopapp.dataAccess.deps.json
+C:\Users\byart\Work\.NetProjects\shopapp\shopapp.dataAccess\bin\Debug\net6.0\shopapp.dataAccess.runtimeconfig.json
+C:\Users\byart\Work\.NetProjects\shopapp\shopapp.dataAccess\bin\Debug\net6.0\shopapp.dataAccess.dll
+C:\Users\byart\Work\.NetProjects\shopapp\shopapp.dataAccess\bin\Debug\net6.0\ref\shopapp.dataAccess.dll
+C:\Users\byart\Work\.NetProjects\shopapp\shopapp.dataAccess\bin\Debug\net6.0\shopapp.dataAccess.pdb
+C:\Users\byart\Work\.NetProjects\shopapp\shopapp.dataAccess\bin\Debug\net6.0\shopapp.entity.dll
+C:\Users\byart\Work\.NetProjects\shopapp\shopapp.dataAccess\bin\Debug\net6.0\shopapp.entity.pdb
+C:\Users\byart\Work\.NetProjects\shopapp\shopapp.dataAccess\obj\Debug\net6.0\shopapp.dataAccess.csproj.AssemblyReference.cache
+C:\Users\byart\Work\.NetProjects\shopapp\shopapp.dataAccess\obj\Debug\net6.0\shopapp.dataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\byart\Work\.NetProjects\shopapp\shopapp.dataAccess\obj\Debug\net6.0\shopapp.dataAccess.AssemblyInfoInputs.cache
+C:\Users\byart\Work\.NetProjects\shopapp\shopapp.dataAccess\obj\Debug\net6.0\shopapp.dataAccess.AssemblyInfo.cs
+C:\Users\byart\Work\.NetProjects\shopapp\shopapp.dataAccess\obj\Debug\net6.0\shopapp.dataAccess.csproj.CoreCompileInputs.cache
+C:\Users\byart\Work\.NetProjects\shopapp\shopapp.dataAccess\obj\Debug\net6.0\shopapp.dataAccess.csproj.CopyComplete
+C:\Users\byart\Work\.NetProjects\shopapp\shopapp.dataAccess\obj\Debug\net6.0\shopapp.dataAccess.dll
+C:\Users\byart\Work\.NetProjects\shopapp\shopapp.dataAccess\obj\Debug\net6.0\ref\shopapp.dataAccess.dll
+C:\Users\byart\Work\.NetProjects\shopapp\shopapp.dataAccess\obj\Debug\net6.0\shopapp.dataAccess.pdb
+C:\Users\byart\Work\.NetProjects\shopapp\shopapp.dataAccess\obj\Debug\net6.0\shopapp.dataAccess.genruntimeconfig.cache

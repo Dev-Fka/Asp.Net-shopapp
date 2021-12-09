@@ -1,0 +1,17 @@
+C:\Users\byart\Work\.NetProjects\shopapp\shopapp.business\bin\Debug\net6.0\shopapp.business.deps.json
+C:\Users\byart\Work\.NetProjects\shopapp\shopapp.business\bin\Debug\net6.0\shopapp.business.dll
+C:\Users\byart\Work\.NetProjects\shopapp\shopapp.business\bin\Debug\net6.0\ref\shopapp.business.dll
+C:\Users\byart\Work\.NetProjects\shopapp\shopapp.business\bin\Debug\net6.0\shopapp.business.pdb
+C:\Users\byart\Work\.NetProjects\shopapp\shopapp.business\bin\Debug\net6.0\shopapp.dataAccess.dll
+C:\Users\byart\Work\.NetProjects\shopapp\shopapp.business\bin\Debug\net6.0\shopapp.entity.dll
+C:\Users\byart\Work\.NetProjects\shopapp\shopapp.business\bin\Debug\net6.0\shopapp.dataAccess.pdb
+C:\Users\byart\Work\.NetProjects\shopapp\shopapp.business\bin\Debug\net6.0\shopapp.entity.pdb
+C:\Users\byart\Work\.NetProjects\shopapp\shopapp.business\obj\Debug\net6.0\shopapp.business.csproj.AssemblyReference.cache
+C:\Users\byart\Work\.NetProjects\shopapp\shopapp.business\obj\Debug\net6.0\shopapp.business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\byart\Work\.NetProjects\shopapp\shopapp.business\obj\Debug\net6.0\shopapp.business.AssemblyInfoInputs.cache
+C:\Users\byart\Work\.NetProjects\shopapp\shopapp.business\obj\Debug\net6.0\shopapp.business.AssemblyInfo.cs
+C:\Users\byart\Work\.NetProjects\shopapp\shopapp.business\obj\Debug\net6.0\shopapp.business.csproj.CoreCompileInputs.cache
+C:\Users\byart\Work\.NetProjects\shopapp\shopapp.business\obj\Debug\net6.0\shopapp.business.csproj.CopyComplete
+C:\Users\byart\Work\.NetProjects\shopapp\shopapp.business\obj\Debug\net6.0\shopapp.business.dll
+C:\Users\byart\Work\.NetProjects\shopapp\shopapp.business\obj\Debug\net6.0\ref\shopapp.business.dll
+C:\Users\byart\Work\.NetProjects\shopapp\shopapp.business\obj\Debug\net6.0\shopapp.business.pdb
