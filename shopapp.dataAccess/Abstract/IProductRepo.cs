@@ -16,5 +16,6 @@ namespace shopapp.dataAccess.Abstract
         List<Product> getHomePageProducts();
 
         Product getByIdWithCategory(int id);
+        void update(Product entity, int[] categoryId);
     }
 }

@@ -32,26 +32,45 @@ namespace shopapp.webui.Controllers
 
             return View();
         }
-        [HttpPost]
-        public IActionResult createProduct(Product p)
-        {
-            var entity = new Product()
-            {
-                Name = p.Name,
-                Price = p.Price,
-                Description = p.Description,
-                ImageUrl = p.ImageUrl,
-                Url = p.Url
-            };
-            productService.create(entity);
-            var msg = new AlertMessage()
-            {
-                message = $"{p.Name} isimli ürün eklendi",
-                alertType = $"info"
-            };
 
-            TempData["message"] = JsonConvert.SerializeObject(msg);
-            return RedirectToAction("productList");
+        [HttpPost]
+        public IActionResult createProduct(ProductModel p)
+        {
+            if (ModelState.IsValid)
+            {
+                var entity = new Product()
+                {
+                    Name = p.Name,
+                    Price = p.Price,
+                    Description = p.Description,
+                    ImageUrl = p.ImageUrl,
+                    Url = p.Url
+                };
+                if (productService.create(entity))
+                {
+                    var msg = new AlertMessage()
+                    {
+                        message = $"{p.Name} isimli ürün eklendi",
+                        alertType = $"info"
+                    };
+
+                    TempData["message"] = JsonConvert.SerializeObject(msg);
+                    return RedirectToAction("productList");
+                }
+
+                var msge = new AlertMessage()
+                {
+                    message = $"{productService.Message} isimli ürün eklendi",
+                    alertType = $"danger"
+                };
+
+                TempData["message"] = JsonConvert.SerializeObject(msge);
+                return View(p);
+            }
+            else
+            {
+                return View(p);
+            }
         }
 
         [HttpGet]
@@ -82,7 +101,7 @@ namespace shopapp.webui.Controllers
         }
 
         [HttpPost]
-        public IActionResult editProduct(ProductModel model)
+        public async Task<IActionResult> editProduct(ProductModel model, int[] categoryId, IFormFile file)
         {
             var entity = productService.getById(model.ProductId);
             if (entity == null)
@@ -92,9 +111,21 @@ namespace shopapp.webui.Controllers
             entity.Name = model.Name;
             entity.Description = model.Description;
             entity.Price = model.Price;
-            entity.ImageUrl = model.ImageUrl;
+            entity.Url = model.Url;
+            productService.update(entity, categoryId);
 
-            productService.update(entity);
+            if (file != null)
+            {
+                var extension = Path.GetExtension(file.FileName);
+                var randomName = string.Format($"{Guid.NewGuid()}{extension}");
+                entity.ImageUrl = randomName;
+                var path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot\\img", randomName);
+
+                using (var stream = new FileStream(path, FileMode.Create))
+                {
+                    await file.CopyToAsync(stream);
+                }
+            }
             var msg = new AlertMessage()
             {
                 message = $"{model.Name} isimli ürün güncellendi",
@@ -140,16 +171,24 @@ namespace shopapp.webui.Controllers
 
             return View();
         }
+
         [HttpPost]
         public IActionResult createCategory(CategoryModel model)
         {
-            var category = new Category()
+            if (ModelState.IsValid)
             {
-                Name = model.Name,
-                Url = model.Url
-            };
-            categoryService.create(category);
-            return RedirectToAction("categoryList");
+                var category = new Category()
+                {
+                    Name = model.Name,
+                    Url = model.Url
+                };
+                categoryService.create(category);
+                return RedirectToAction("categoryList");
+            }
+            else
+            {
+                return View(model);
+            }
         }
 
         [HttpGet]
@@ -177,15 +216,22 @@ namespace shopapp.webui.Controllers
         [HttpPost]
         public IActionResult editCategory(CategoryModel model)
         {
-            var entity = categoryService.getById(model.CategoryId);
-            if (entity == null)
+            if (ModelState.IsValid)
             {
-                return NotFound();
+                var entity = categoryService.getById(model.CategoryId);
+                if (entity == null)
+                {
+                    return NotFound();
+                }
+                entity.Name = model.Name;
+                entity.Url = model.Url;
+                categoryService.update(entity);
+                return RedirectToAction("categoryList");
             }
-            entity.Name = model.Name;
-            entity.Url = model.Url;
-            categoryService.update(entity);
-            return RedirectToAction("categoryList");
+            else
+            {
+                return View(model);
+            }
         }
 
         [HttpPost]

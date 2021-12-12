@@ -16,9 +16,17 @@ namespace shopapp.business.Concrete
         {
             this._productRepo = productRepo;
         }
-        public void create(Product entity)
+
+
+
+        public bool create(Product entity)
         {
-            _productRepo.create(entity);
+            if (validation(entity))
+            {
+                _productRepo.create(entity);
+                return true;
+            }
+            return false;
         }
 
         public void delete(Product entity)
@@ -70,5 +78,29 @@ namespace shopapp.business.Concrete
         {
             _productRepo.update(entity);
         }
+
+        public void update(Product entity, int[] categoryId)
+        {
+            _productRepo.update(entity, categoryId);
+        }
+
+        public string? Message { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public bool validation(Product entity)
+        {
+            var isValid = true;
+            if (string.IsNullOrEmpty(entity.Name))
+            {
+                Message += "ürün ismi boş bırakılamaz. \n";
+                isValid = false;
+            }
+
+            if (entity.Price < 0)
+            {
+                Message += "ürün ismi boş bırakılamaz. \n";
+                isValid = false;
+            }
+            return isValid;
+        }
+
     }
 }

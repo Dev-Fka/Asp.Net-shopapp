@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using shopapp.dataAccess.Abstract;
 using shopapp.entity;
+using shopapp.entity.obj;
 
 namespace shopapp.dataAccess.Concrete.EFCore
 {
@@ -108,6 +109,34 @@ namespace shopapp.dataAccess.Concrete.EFCore
         public List<Product> getTop5Product()
         {
             throw new NotImplementedException();
+        }
+
+        public void update(Product entity, int[] categoryId)
+        {
+            using (var db = new ShopContext())
+            {
+                var product = db.Products
+                               .Include(i => i.ProductCategories)
+                               .FirstOrDefault(i => i.ProductId == entity.ProductId);
+
+                if (product != null)
+                {
+                    product.Name = entity.Name;
+                    product.Price = entity.Price;
+                    product.ImageUrl = entity.ImageUrl;
+                    product.Url = entity.Url;
+                    product.Description = entity.Description;
+
+                    product.ProductCategories = categoryId.Select(catid => new ProductCategory()
+                    {
+                        ProductId = entity.ProductId,
+                        CategoryId = catid
+                    }).ToList();
+
+                    db.SaveChanges();
+                }
+            }
+
         }
     }
 }

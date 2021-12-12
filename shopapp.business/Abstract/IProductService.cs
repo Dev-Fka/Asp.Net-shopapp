@@ -6,12 +6,12 @@ using shopapp.entity;
 
 namespace shopapp.business.Abstract
 {
-    public interface IProductService
+    public interface IProductService : IValidator<Product>
     {
 
         Product getById(int id);
         List<Product> getAll();
-        void create(Product entity);
+        bool create(Product entity);
         void update(Product entity);
         void delete(Product entity);
         Product getDetailWithCategories(string url);
@@ -21,5 +21,6 @@ namespace shopapp.business.Abstract
         List<Product> getSearchResult(string name);
 
         Product getByIdWithCategory(int id);
+        void update(Product entity, int[] categoryId);
     }
 }

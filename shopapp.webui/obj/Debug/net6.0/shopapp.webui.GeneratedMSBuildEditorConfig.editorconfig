@@ -8,89 +8,89 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = shopapp.webui
 build_property.RootNamespace = shopapp.webui
-build_property.ProjectDir = c:\Users\byart\Work\.NetProjects\shopapp\shopapp.webui\
+build_property.ProjectDir = C:\Users\byart\Work\.NetProjects\shopapp\shopapp.webui\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = c:\Users\byart\Work\.NetProjects\shopapp\shopapp.webui
+build_property.MSBuildProjectDirectory = C:\Users\byart\Work\.NetProjects\shopapp\shopapp.webui
 build_property._RazorSourceGeneratorDebug = 
 
-[c:/Users/byart/Work/.NetProjects/shopapp/shopapp.webui/Views/Admin/categoryList.cshtml]
+[C:/Users/byart/Work/.NetProjects/shopapp/shopapp.webui/Views/Admin/categoryList.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cY2F0ZWdvcnlMaXN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/byart/Work/.NetProjects/shopapp/shopapp.webui/Views/Admin/createCategory.cshtml]
+[C:/Users/byart/Work/.NetProjects/shopapp/shopapp.webui/Views/Admin/createCategory.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cY3JlYXRlQ2F0ZWdvcnkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/byart/Work/.NetProjects/shopapp/shopapp.webui/Views/Admin/createProduct.cshtml]
+[C:/Users/byart/Work/.NetProjects/shopapp/shopapp.webui/Views/Admin/createProduct.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cY3JlYXRlUHJvZHVjdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/byart/Work/.NetProjects/shopapp/shopapp.webui/Views/Admin/editCategory.cshtml]
+[C:/Users/byart/Work/.NetProjects/shopapp/shopapp.webui/Views/Admin/editCategory.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cZWRpdENhdGVnb3J5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/byart/Work/.NetProjects/shopapp/shopapp.webui/Views/Admin/editProduct.cshtml]
+[C:/Users/byart/Work/.NetProjects/shopapp/shopapp.webui/Views/Admin/editProduct.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cZWRpdFByb2R1Y3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/byart/Work/.NetProjects/shopapp/shopapp.webui/Views/Admin/productList.cshtml]
+[C:/Users/byart/Work/.NetProjects/shopapp/shopapp.webui/Views/Admin/productList.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5ccHJvZHVjdExpc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/byart/Work/.NetProjects/shopapp/shopapp.webui/Views/Home/About.cshtml]
+[C:/Users/byart/Work/.NetProjects/shopapp/shopapp.webui/Views/Home/About.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/byart/Work/.NetProjects/shopapp/shopapp.webui/Views/Home/Index.cshtml]
+[C:/Users/byart/Work/.NetProjects/shopapp/shopapp.webui/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/byart/Work/.NetProjects/shopapp/shopapp.webui/Views/Home/MyView.cshtml]
+[C:/Users/byart/Work/.NetProjects/shopapp/shopapp.webui/Views/Home/MyView.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxNeVZpZXcuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/byart/Work/.NetProjects/shopapp/shopapp.webui/Views/Home/search.cshtml]
+[C:/Users/byart/Work/.NetProjects/shopapp/shopapp.webui/Views/Home/search.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxzZWFyY2guY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/byart/Work/.NetProjects/shopapp/shopapp.webui/Views/Shared/Components/Categories/Default.cshtml]
+[C:/Users/byart/Work/.NetProjects/shopapp/shopapp.webui/Views/Shared/Components/Categories/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcQ2F0ZWdvcmllc1xEZWZhdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/byart/Work/.NetProjects/shopapp/shopapp.webui/Views/Shared/_categoriesList.cshtml]
+[C:/Users/byart/Work/.NetProjects/shopapp/shopapp.webui/Views/Shared/_categoriesList.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9jYXRlZ29yaWVzTGlzdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/byart/Work/.NetProjects/shopapp/shopapp.webui/Views/Shared/_Layout.cshtml]
+[C:/Users/byart/Work/.NetProjects/shopapp/shopapp.webui/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/byart/Work/.NetProjects/shopapp/shopapp.webui/Views/Shared/_Navbar.cshtml]
+[C:/Users/byart/Work/.NetProjects/shopapp/shopapp.webui/Views/Shared/_Navbar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9OYXZiYXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/byart/Work/.NetProjects/shopapp/shopapp.webui/Views/Shared/_ProductCard.cshtml]
+[C:/Users/byart/Work/.NetProjects/shopapp/shopapp.webui/Views/Shared/_ProductCard.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Qcm9kdWN0Q2FyZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/byart/Work/.NetProjects/shopapp/shopapp.webui/Views/Shared/_search.cshtml]
+[C:/Users/byart/Work/.NetProjects/shopapp/shopapp.webui/Views/Shared/_search.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9zZWFyY2guY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/byart/Work/.NetProjects/shopapp/shopapp.webui/Views/Shop/details.cshtml]
+[C:/Users/byart/Work/.NetProjects/shopapp/shopapp.webui/Views/Shop/details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvcFxkZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/byart/Work/.NetProjects/shopapp/shopapp.webui/Views/Shop/list.cshtml]
+[C:/Users/byart/Work/.NetProjects/shopapp/shopapp.webui/Views/Shop/list.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvcFxsaXN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/byart/Work/.NetProjects/shopapp/shopapp.webui/Views/_ViewImports.cshtml]
+[C:/Users/byart/Work/.NetProjects/shopapp/shopapp.webui/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/byart/Work/.NetProjects/shopapp/shopapp.webui/Views/_ViewStart.cshtml]
+[C:/Users/byart/Work/.NetProjects/shopapp/shopapp.webui/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

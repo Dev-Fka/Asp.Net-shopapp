@@ -19,7 +19,7 @@
             <hr>
             <i class="fab fa-affiliatetheme"></i>@Model.Product.Price TL
             <button type="submit" class="btn btn-primary">ADD TO CART</button>
-            <p class="p-3">@Model.Product.Description</p>
+            <p class="p-3">@Html.Raw(Model.Product.Description)</p>
             @foreach (var item in Model.Categories)
             {
                 <a asp-controller="shop" asp-action="details" asp-route-category="@item.Name"

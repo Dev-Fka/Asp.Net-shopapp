@@ -17,6 +17,8 @@ namespace shopapp.business.Concrete
             categoryRepo = _categoryRepo;
         }
 
+        public string? Message { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+
         public void create(Category entity)
         {
             categoryRepo.create(entity);
@@ -50,6 +52,11 @@ namespace shopapp.business.Concrete
         public void update(Category entity)
         {
             categoryRepo.update(entity);
+        }
+
+        public bool validation(Category entity)
+        {
+            throw new NotImplementedException();
         }
     }
 }
