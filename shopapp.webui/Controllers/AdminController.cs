@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using shopapp.business.Abstract;
@@ -10,6 +11,7 @@ using shopapp.webui.Models;
 
 namespace shopapp.webui.Controllers
 {
+    [Authorize]
     public class AdminController : Controller
     {
         private IProductService productService;

@@ -65,3 +65,4 @@ C:\Users\byart\Work\.NetProjects\shopapp\shopapp.webui\bin\Debug\net6.0\Microsof
 C:\Users\byart\Work\.NetProjects\shopapp\shopapp.webui\bin\Debug\net6.0\shopapp.business.dll
 C:\Users\byart\Work\.NetProjects\shopapp\shopapp.webui\bin\Debug\net6.0\shopapp.business.pdb
 C:\Users\byart\Work\.NetProjects\shopapp\shopapp.webui\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\byart\Work\.NetProjects\shopapp\shopapp.webui\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll

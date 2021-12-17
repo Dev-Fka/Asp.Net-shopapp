@@ -16315,6 +16315,11 @@
   "RootNamespace": "shopapp.webui",
   "Documents": [
     {
+      "FilePath": "c:\\Users\\byart\\Work\\.NetProjects\\shopapp\\shopapp.webui\\Views\\Account\\register.cshtml",
+      "TargetPath": "Views\\Account\\register.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\byart\\Work\\.NetProjects\\shopapp\\shopapp.webui\\Views\\Shared\\_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
@@ -16327,6 +16332,11 @@
     {
       "FilePath": "c:\\Users\\byart\\Work\\.NetProjects\\shopapp\\shopapp.webui\\Views\\Admin\\createCategory.cshtml",
       "TargetPath": "Views\\Admin\\createCategory.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\byart\\Work\\.NetProjects\\shopapp\\shopapp.webui\\Views\\Account\\login.cshtml",
+      "TargetPath": "Views\\Account\\login.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -16345,6 +16355,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\byart\\Work\\.NetProjects\\shopapp\\shopapp.webui\\Views\\Account\\resetPassword.cshtml",
+      "TargetPath": "Views\\Account\\resetPassword.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\byart\\Work\\.NetProjects\\shopapp\\shopapp.webui\\Views\\Home\\MyView.cshtml",
       "TargetPath": "Views\\Home\\MyView.cshtml",
       "FileKind": "mvc"
@@ -16352,6 +16367,11 @@
     {
       "FilePath": "c:\\Users\\byart\\Work\\.NetProjects\\shopapp\\shopapp.webui\\Views\\Admin\\editCategory.cshtml",
       "TargetPath": "Views\\Admin\\editCategory.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\byart\\Work\\.NetProjects\\shopapp\\shopapp.webui\\Views\\Account\\confirmEmail.cshtml",
+      "TargetPath": "Views\\Account\\confirmEmail.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -16407,6 +16427,11 @@
     {
       "FilePath": "c:\\Users\\byart\\Work\\.NetProjects\\shopapp\\shopapp.webui\\Views\\Home\\search.cshtml",
       "TargetPath": "Views\\Home\\search.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\byart\\Work\\.NetProjects\\shopapp\\shopapp.webui\\Views\\Account\\forgetPassword.cshtml",
+      "TargetPath": "Views\\Account\\forgetPassword.cshtml",
       "FileKind": "mvc"
     },
     {
